@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/cloud-api" />
+            <option value="$PROJECT_DIR$/cloud-node" />
+            <option value="$PROJECT_DIR$/cloud-wrapper" />
           </set>
         </option>
       </GradleProjectSettings>

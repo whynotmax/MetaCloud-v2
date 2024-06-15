@@ -1,3 +1,5 @@
 rootProject.name = 'MetaCloud2'
 include 'cloud-api'
+include 'cloud-node'
+include 'cloud-wrapper'
 
