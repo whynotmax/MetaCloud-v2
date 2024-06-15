@@ -1,0 +1,3 @@
+rootProject.name = 'MetaCloud2'
+include 'cloud-api'
+
