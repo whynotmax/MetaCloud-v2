@@ -4,19 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17cc907b-672f-4f7e-8756-2d3e534e81c6" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/type/GroupType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/service/CloudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/service/CloudServiceProvider.java" afterDir="false" />
+    <list default="true" id="17cc907b-672f-4f7e-8756-2d3e534e81c6" name="Changes" comment="Created necessary modules">
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/services/CloudServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/services/CloudServiceProviderImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/service/CloudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/service/CloudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-wrapper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-wrapper/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +104,29 @@
       <option name="project" value="LOCAL" />
       <updated>1718489508503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added CloudAPI">
+      <option name="closed" value="true" />
+      <created>1718490215738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718490215738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created necessary modules">
+      <option name="closed" value="true" />
+      <created>1718490232089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718490232089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added CloudAPI" />
+    <MESSAGE value="Created necessary modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created necessary modules" />
   </component>
 </project>

@@ -14,6 +14,8 @@ public interface CloudService {
 
     CompletableFuture<CloudGroup> getGroupAsync();
 
+    void shutdown();
+
 
 
 }

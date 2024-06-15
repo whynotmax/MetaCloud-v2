@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'dev.mzcy'
+group = 'dev.mzcy.cloud.node'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation "org.projectlombok:lombok:$lombokVersion"
+
+    implementation project(':cloud-api')
 }
 
 test {

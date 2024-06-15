@@ -18,7 +18,7 @@ public interface CloudGroupProvider {
 
     CompletableFuture<CloudGroup[]> getGroupsByTypeAsync(GroupType type);
 
-    void createGroup();
+    void createGroup(CloudGroup group);
 
     void deleteGroup(CloudGroup group);
 

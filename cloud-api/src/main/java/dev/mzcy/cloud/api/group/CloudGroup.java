@@ -4,11 +4,11 @@ import dev.mzcy.cloud.api.group.type.GroupType;
 
 public interface CloudGroup {
 
-    String name();
+    String getName();
 
-    int minimumOnlineInstances();
-    int maximumOnlineInstances();
+    int getMinimumOnlineInstances();
+    int getMaximumOnlineInstances();
 
-    GroupType type();
+    GroupType getType();
 
 }
