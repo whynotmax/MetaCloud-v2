@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17cc907b-672f-4f7e-8756-2d3e534e81c6" name="Changes" comment="Created necessary modules">
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/services/CloudServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/services/CloudServiceProviderImpl.java" afterDir="false" />
+    <list default="true" id="17cc907b-672f-4f7e-8756-2d3e534e81c6" name="Changes" comment="Added some things">
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstanceLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstanceShutdownHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/command/CommandProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/command/impl/ShutdownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Jline3Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Jline3TerminalRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/service/CloudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/service/CloudService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-node/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-wrapper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-wrapper/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +43,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "whynotmax"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;whynotmax&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/whynotmax/MetaCloud-v2.git",
-    "accountId": "9ff48a6d-26de-4556-9be5-5df559979a07"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/whynotmax/MetaCloud-v2.git&quot;,
+    &quot;accountId&quot;: &quot;9ff48a6d-26de-4556-9be5-5df559979a07&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hvyuXTH4NdR7SSqE17jkhFbWeG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,12 +66,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.MetaCloud2.executor": "Run",
+    "Gradle.MetaCloud2:cloud-node [:cloud-node:CloudInstanceLauncher.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -120,13 +124,22 @@
       <option name="project" value="LOCAL" />
       <updated>1718490232089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added some things">
+      <option name="closed" value="true" />
+      <created>1718491248269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718491248269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added CloudAPI" />
     <MESSAGE value="Created necessary modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created necessary modules" />
+    <MESSAGE value="Added some things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some things" />
   </component>
 </project>
