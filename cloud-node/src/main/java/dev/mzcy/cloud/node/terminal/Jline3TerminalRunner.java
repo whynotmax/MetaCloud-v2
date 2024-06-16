@@ -20,8 +20,9 @@ public final class Jline3TerminalRunner extends Thread {
     @Override
     public void run() {
         String line;
-        while ((line = terminal.getLineReader().readLine("cloud > ")) != null) {
+        while ((line = terminal.getLineReader().readLine(Color.translate("&1cloud &2-> &1"))) != null) {
             ((CloudInstance) CloudInstance.getInstance()).getCommandProvider().call(line.split(" "));
+            CloudInstance.getInstance().getTerminal().write(line);
         }
     }
 }

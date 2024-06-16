@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17cc907b-672f-4f7e-8756-2d3e534e81c6" name="Changes" comment="Added some things">
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/netty/NettyNetworkHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/netty/NettyNetworkServerInitializer.java" afterDir="false" />
+    <list default="true" id="17cc907b-672f-4f7e-8756-2d3e534e81c6" name="Changes" comment="Added Netty package">
+      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/template/CloudGroupTemplateProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/template/GroupTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/command/impl/GroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/template/CloudGroupGroupTemplateProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/template/CloudGroupTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/CloudAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api/src/main/java/dev/mzcy/cloud/api/group/CloudGroupProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/CloudInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/group/CloudGroupProviderImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Jline3Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Jline3Terminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Jline3TerminalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-node/src/main/java/dev/mzcy/cloud/node/terminal/Jline3TerminalRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +35,44 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/cloud-node">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MetaCloud2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MetaCloud2" type="f1a62948:ProjectNode" />
+                <item name="cloud-node" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MetaCloud2" type="f1a62948:ProjectNode" />
+                <item name="cloud-node" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MetaCloud2" type="f1a62948:ProjectNode" />
+                <item name="cloud-node" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,30 +110,56 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Download Sources.executor": "Run",
-    "Gradle.MetaCloud-v2:cloud-node [:cloud-node:CloudInstanceLauncher.main()].executor": "Run",
     "Gradle.MetaCloud2.executor": "Run",
     "Gradle.MetaCloud2:cloud-node [:cloud-node:CloudInstanceLauncher.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Gradle.MetaCloud2:cloud-node [shadowJar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxim\Desktop\Workspace\MetaCloud2\cloud-api\src\main\java\dev\mzcy\cloud\api\group" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.mzcy.cloud.api.group.template" />
       <recent name="dev.mzcy.cloud.api.group" />
     </key>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
-      </set>
-    </attachedChunks>
+  <component name="RunManager">
+    <configuration name="MetaCloud2:cloud-node [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/cloud-node" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MetaCloud2:cloud-node [shadowJar]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718491248269</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Netty package">
+      <option name="closed" value="true" />
+      <created>1718559600436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718559600436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +226,7 @@
     <MESSAGE value="Added CloudAPI" />
     <MESSAGE value="Created necessary modules" />
     <MESSAGE value="Added some things" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some things" />
+    <MESSAGE value="Added Netty package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Netty package" />
   </component>
 </project>

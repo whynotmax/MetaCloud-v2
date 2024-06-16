@@ -6,6 +6,7 @@ import dev.mzcy.cloud.api.group.type.GroupType;
 import lombok.experimental.FieldDefaults;
 
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
@@ -16,8 +17,8 @@ public final class CloudGroupProviderImpl implements CloudGroupProvider {
     Map<String, CloudGroup> groupPool = new ConcurrentHashMap<>();
 
     @Override
-    public CloudGroup getGroupByName(String name) {
-        return groupPool.get(name);
+    public Optional<CloudGroup> getGroupByName(String name) {
+        return Optional.ofNullable(groupPool.get(name));
     }
 
     @Override
@@ -26,8 +27,8 @@ public final class CloudGroupProviderImpl implements CloudGroupProvider {
     }
 
     @Override
-    public CloudGroup[] getAllGroups() {
-        return groupPool.values().toArray(new CloudGroup[0]);
+    public Optional<CloudGroup[]> getAllGroups() {
+        return Optional.of(groupPool.values().toArray(new CloudGroup[0]));
     }
 
     @Override
@@ -36,8 +37,8 @@ public final class CloudGroupProviderImpl implements CloudGroupProvider {
     }
 
     @Override
-    public CloudGroup[] getGroupsByType(GroupType type) {
-        return groupPool.values().stream().filter(group -> group.getType().equals(type)).toArray(CloudGroup[]::new);
+    public Optional<CloudGroup[]> getGroupsByType(GroupType type) {
+        return Optional.of(groupPool.values().stream().filter(group -> group.getType().equals(type)).toArray(CloudGroup[]::new));
     }
 
     @Override

@@ -1,12 +1,19 @@
 plugins {
     id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
+//project.setProperty("mainClassName", "dev.mzcy.cloud.node.CloudInstanceLauncher")
 group = 'dev.mzcy.cloud.node'
 version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClassName = "dev.mzcy.cloud.node.CloudInstanceLauncher"
 }
 
 dependencies {
@@ -17,7 +24,9 @@ dependencies {
     annotationProcessor "org.projectlombok:lombok:$lombokVersion"
 
     implementation "org.jline:jline:3.26.1"
+    implementation 'org.fusesource.jansi:jansi:2.4.1'
     implementation "io.netty:netty5-all:5.0.0.Alpha5"
+
 
 
     implementation project(':cloud-api')

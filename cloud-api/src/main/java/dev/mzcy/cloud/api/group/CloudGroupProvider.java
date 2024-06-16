@@ -2,19 +2,20 @@ package dev.mzcy.cloud.api.group;
 
 import dev.mzcy.cloud.api.group.type.GroupType;
 
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 public interface CloudGroupProvider {
 
-    CloudGroup getGroupByName(String name);
+    Optional<CloudGroup> getGroupByName(String name);
 
     CompletableFuture<CloudGroup> getGroupByNameAsync(String name);
 
-    CloudGroup[] getAllGroups();
+    Optional<CloudGroup[]> getAllGroups();
 
     CompletableFuture<CloudGroup[]> getAllGroupsAsync();
 
-    CloudGroup[] getGroupsByType(GroupType type);
+    Optional<CloudGroup[]> getGroupsByType(GroupType type);
 
     CompletableFuture<CloudGroup[]> getGroupsByTypeAsync(GroupType type);
 

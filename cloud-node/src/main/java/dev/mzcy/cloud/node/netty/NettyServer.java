@@ -19,8 +19,6 @@ public class NettyServer {
     EventLoopGroup bossGroup = new MultithreadEventLoopGroup(Epoll.isAvailable() ? EpollHandler.newFactory() : NioHandler.newFactory());
     EventLoopGroup workerGroup = new MultithreadEventLoopGroup(Epoll.isAvailable() ? EpollHandler.newFactory() : NioHandler.newFactory());
 
-    Future<Void> future;
-
     public NettyServer() {
         new ServerBootstrap()
                 .channelFactory(EpollServerSocketChannel::new)

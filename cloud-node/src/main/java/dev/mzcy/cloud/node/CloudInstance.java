@@ -2,9 +2,11 @@ package dev.mzcy.cloud.node;
 
 import dev.mzcy.cloud.api.CloudAPI;
 import dev.mzcy.cloud.api.group.CloudGroupProvider;
+import dev.mzcy.cloud.api.group.template.CloudGroupTemplateProvider;
 import dev.mzcy.cloud.api.service.CloudServiceProvider;
 import dev.mzcy.cloud.node.command.CommandProvider;
 import dev.mzcy.cloud.node.group.CloudGroupProviderImpl;
+import dev.mzcy.cloud.node.group.template.CloudGroupGroupTemplateProviderImpl;
 import dev.mzcy.cloud.node.netty.NettyServer;
 import dev.mzcy.cloud.node.services.CloudServiceProviderImpl;
 import dev.mzcy.cloud.node.terminal.Jline3Terminal;
@@ -22,6 +24,7 @@ public class CloudInstance extends CloudAPI {
     CommandProvider commandProvider;
     CloudGroupProvider groupProvider;
     CloudServiceProvider serviceProvider;
+    CloudGroupTemplateProvider templateProvider;
     NettyServer nettyServer;
 
     public CloudInstance() {
@@ -33,6 +36,7 @@ public class CloudInstance extends CloudAPI {
 
         this.groupProvider = new CloudGroupProviderImpl();
         this.serviceProvider = new CloudServiceProviderImpl();
+        this.templateProvider = new CloudGroupGroupTemplateProviderImpl();
 
         this.nettyServer = new NettyServer();
 

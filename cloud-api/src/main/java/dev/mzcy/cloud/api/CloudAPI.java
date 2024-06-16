@@ -1,6 +1,7 @@
 package dev.mzcy.cloud.api;
 
 import dev.mzcy.cloud.api.group.CloudGroupProvider;
+import dev.mzcy.cloud.api.group.template.CloudGroupTemplateProvider;
 import dev.mzcy.cloud.api.service.CloudServiceProvider;
 import lombok.Getter;
 
@@ -17,5 +18,7 @@ public abstract class CloudAPI {
     public abstract CloudGroupProvider getGroupProvider();
 
     public abstract CloudServiceProvider getServiceProvider();
+
+    public abstract CloudGroupTemplateProvider getTemplateProvider();
 
 }
